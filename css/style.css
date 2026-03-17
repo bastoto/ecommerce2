@@ -1625,6 +1625,38 @@ img { max-width: 100%; height: auto; }
   font-weight: 700;
   letter-spacing: 2px;
 }
+
+/* Homepage: white navbar text over hero */
+body[data-page="home"] .navbar .nav-link,
+body[data-page="home"] .navbar .navbar-brand,
+body[data-page="home"] .navbar .nav-icon,
+body[data-page="home"] .navbar .search-toggle {
+  color: #fff;
+}
+body[data-page="home"] .navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+body[data-page="home"] .navbar .dropdown-menu {
+  background: #fff;
+}
+body[data-page="home"] .navbar .dropdown-item {
+  color: var(--text);
+}
+/* After scroll: revert to dark text */
+body[data-page="home"] .navbar.scrolled .nav-link,
+body[data-page="home"] .navbar.scrolled .navbar-brand,
+body[data-page="home"] .navbar.scrolled .nav-icon,
+body[data-page="home"] .navbar.scrolled .search-toggle {
+  color: var(--text);
+}
+body[data-page="home"] .navbar.scrolled .navbar-toggler-icon {
+  filter: none;
+}
+body[data-page="home"] .navbar .nav-link:hover,
+body[data-page="home"] .navbar.scrolled .nav-link:hover {
+  color: var(--accent);
+}
+
 .nav-icon {
   color: var(--text);
   font-size: 1.15rem;
