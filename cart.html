@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Bag - MAISON ELEGANCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-page="cart">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MAISON <span class="text-accent">ELEGANCE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html?cat=all">All Products</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=men">Men</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=women">Women</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=accessories">Accessories</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="category.html?cat=new">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=sale">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="category.html?cat=new">New Arrivals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="category.html?cat=sale">Sale</a></li>
+                </ul>
+                <div class="nav-icons d-flex align-items-center gap-3">
+                    <div class="search-toggle" role="button"><i class="bi bi-search"></i></div>
+                    <a href="account.html" class="nav-icon" id="accountIcon"><i class="bi bi-person"></i></a>
+                    <a href="cart.html" class="nav-icon position-relative" id="cartIcon">
+                        <i class="bi bi-bag"></i>
+                        <span class="cart-count badge rounded-pill bg-accent">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="container">
+            <div class="search-wrapper">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search products...">
+                <button class="search-close" id="searchClose"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="mt-3 mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Shopping Bag</li>
+                </ol>
+            </nav>
+
+            <!-- Page Title -->
+            <div class="mb-4">
+                <h1 class="section-title">Shopping Bag <span class="fs-5 fw-normal text-muted">(<span id="cartItemCount">0</span> items)</span></h1>
+            </div>
+
+            <!-- Cart Content -->
+            <div class="row g-4 g-lg-5">
+
+                <!-- Left Column: Cart Items -->
+                <div class="col-lg-8">
+
+                    <!-- Cart Items Container -->
+                    <div id="cartItems">
+                        <!-- JS renders cart items here. Each item structure:
+                        <div class="cart-item d-flex gap-3 p-3 mb-3 border rounded-3">
+                            <img src="..." alt="..." class="cart-item-img rounded" style="width:120px; height:150px; object-fit:cover;">
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6 class="mb-1">Product Name</h6>
+                                        <p class="text-muted small mb-1">Color: Black | Size: M</p>
+                                    </div>
+                                    <button class="btn btn-sm btn-link text-muted remove-item"><i class="bi bi-x-lg"></i></button>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-end mt-3">
+                                    <div class="quantity-selector d-flex align-items-center">
+                                        <button class="btn btn-outline-secondary btn-sm">-</button>
+                                        <input type="number" class="form-control text-center mx-1" value="1" min="1" style="width:50px;">
+                                        <button class="btn btn-outline-secondary btn-sm">+</button>
+                                    </div>
+                                    <span class="fw-semibold">$99.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+
+                    <!-- Empty Cart State -->
+                    <div class="empty-cart text-center py-5 d-none" id="emptyCart">
+                        <i class="bi bi-bag display-1 text-muted mb-3 d-block"></i>
+                        <h4 class="mb-2">Your bag is empty</h4>
+                        <p class="text-muted mb-4">Looks like you haven't added anything to your bag yet.</p>
+                        <a href="category.html?cat=all" class="btn btn-accent btn-lg px-5">Continue Shopping</a>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: Cart Summary -->
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm" id="cartSummary">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-4">Order Summary</h5>
+
+                            <!-- Subtotal -->
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="text-muted">Subtotal</span>
+                                <span id="cartSubtotal">$0.00</span>
+                            </div>
+
+                            <!-- Shipping -->
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class="text-muted">Shipping</span>
+                                <span id="cartShipping">Free</span>
+                            </div>
+
+                            <!-- Promo Code -->
+                            <div class="promo-code mb-3">
+                                <label class="form-label small text-muted">Promo Code</label>
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" id="promoInput" placeholder="Enter code">
+                                    <button class="btn btn-outline-secondary" type="button" id="applyPromo">Apply</button>
+                                </div>
+                                <div class="promo-message small mt-1 d-none" id="promoMessage"></div>
+                            </div>
+
+                            <hr>
+
+                            <!-- Total -->
+                            <div class="d-flex justify-content-between mb-4">
+                                <span class="fw-bold fs-5">Total</span>
+                                <span class="fw-bold fs-5" id="cartTotal">$0.00</span>
+                            </div>
+
+                            <!-- Checkout Button -->
+                            <a href="checkout.html" class="btn btn-accent btn-lg w-100 mb-3" id="checkoutBtn">
+                                Proceed to Checkout
+                            </a>
+
+                            <!-- Trust Icons -->
+                            <div class="trust-icons text-center">
+                                <div class="d-flex justify-content-center gap-4 text-muted small">
+                                    <span><i class="bi bi-shield-check me-1"></i>Secure Checkout</span>
+                                    <span><i class="bi bi-arrow-return-left me-1"></i>Free Returns</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-brand">MAISON <span class="text-accent">ELEGANCE</span></h5>
+                    <p class="text-muted">Curating timeless elegance since 2020. Premium clothing and accessories for the modern individual.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6>Shop</h6>
+                    <ul class="footer-links">
+                        <li><a href="category.html?cat=men">Men</a></li>
+                        <li><a href="category.html?cat=women">Women</a></li>
+                        <li><a href="category.html?cat=accessories">Accessories</a></li>
+                        <li><a href="category.html?cat=sale">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6>Help</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h6>Newsletter</h6>
+                    <p class="text-muted small">Subscribe for exclusive offers and new arrivals.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); App.showToast('Thank you for subscribing!');">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address">
+                            <button class="btn btn-accent" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <p class="small text-muted mb-0">&copy; 2026 Maison Elegance. All rights reserved. Demo store.</p>
+                <div class="payment-icons">
+                    <i class="bi bi-credit-card me-2"></i>
+                    <i class="bi bi-paypal me-2"></i>
+                    <i class="bi bi-wallet2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast & Back to Top -->
+    <div class="toast-container" id="toastContainer"></div>
+    <button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

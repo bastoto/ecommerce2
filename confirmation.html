@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmed - MAISON ÉLÉGANCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-page="confirmation">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MAISON <span class="text-accent">ÉLÉGANCE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="category.html?cat=all">All Products</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=men">Men</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=women">Women</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=accessories">Accessories</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="category.html?cat=new">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="category.html?cat=sale">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="category.html?cat=new">New Arrivals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="category.html?cat=sale">Sale</a></li>
+                </ul>
+                <div class="nav-icons d-flex align-items-center gap-3">
+                    <div class="search-toggle" role="button"><i class="bi bi-search"></i></div>
+                    <a href="account.html" class="nav-icon" id="accountIcon"><i class="bi bi-person"></i></a>
+                    <a href="cart.html" class="nav-icon position-relative" id="cartIcon">
+                        <i class="bi bi-bag"></i>
+                        <span class="cart-count badge rounded-pill bg-accent">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="container">
+            <div class="search-wrapper">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search products...">
+                <button class="search-close" id="searchClose"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="page-content" style="padding-top: 120px; padding-bottom: 60px;">
+        <div class="container">
+            <div class="mx-auto" style="max-width: 600px;">
+
+                <!-- Confirmation Card -->
+                <div class="card border-0 shadow-sm rounded-4 p-5 text-center">
+
+                    <!-- Success Icon -->
+                    <div class="mb-4">
+                        <i class="bi bi-check-circle" style="font-size: 5rem; color: #28a745;"></i>
+                    </div>
+
+                    <h2 class="mb-2" style="font-family: 'Playfair Display', serif;">Order Confirmed!</h2>
+                    <p class="text-muted mb-4" id="confirmationGreeting">Thank you for your purchase.</p>
+
+                    <!-- Order Details Card -->
+                    <div class="card border rounded-3 p-4 mb-4 text-start" style="background-color: var(--bg-secondary, #f8f9fa);">
+                        <div class="row g-3 mb-3">
+                            <div class="col-6">
+                                <div class="text-muted small text-uppercase" style="letter-spacing: 0.5px;">Order Number</div>
+                                <div class="fw-bold" id="orderNumber">ORD-00000</div>
+                            </div>
+                            <div class="col-6 text-end">
+                                <div class="text-muted small text-uppercase" style="letter-spacing: 0.5px;">Order Date</div>
+                                <div class="fw-semibold" id="orderDate">--</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="text-muted small text-uppercase" style="letter-spacing: 0.5px;">Estimated Delivery</div>
+                            <div class="fw-semibold"><i class="bi bi-truck me-1"></i> 3&ndash;5 business days</div>
+                        </div>
+
+                        <hr>
+
+                        <!-- Items Summary -->
+                        <div id="orderItems" class="mb-3">
+                            <!-- JS renders ordered items here -->
+                        </div>
+
+                        <hr>
+
+                        <!-- Total -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold fs-5">Total Paid</span>
+                            <span class="fw-bold fs-4 text-accent" id="orderTotal">$0.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Shipping Address -->
+                    <div class="card border rounded-3 p-4 mb-4 text-start" style="background-color: var(--bg-secondary, #f8f9fa);">
+                        <h6 class="mb-2"><i class="bi bi-geo-alt me-1"></i> Shipping Address</h6>
+                        <p class="mb-0 text-muted" id="shippingAddress">
+                            <!-- JS fills this in -->
+                        </p>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-4">
+                        <a href="account.html" class="btn btn-accent px-4 py-2">
+                            <i class="bi bi-bag-check me-1"></i> View Orders
+                        </a>
+                        <a href="index.html" class="btn btn-outline-secondary px-4 py-2">
+                            <i class="bi bi-arrow-left me-1"></i> Continue Shopping
+                        </a>
+                    </div>
+
+                    <p class="small text-muted mb-0">
+                        <i class="bi bi-envelope me-1"></i> A confirmation email has been sent (demo).
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-brand">MAISON <span class="text-accent">ÉLÉGANCE</span></h5>
+                    <p class="text-muted">Curating timeless elegance since 2020. Premium clothing and accessories for the modern individual.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6>Shop</h6>
+                    <ul class="footer-links">
+                        <li><a href="category.html?cat=men">Men</a></li>
+                        <li><a href="category.html?cat=women">Women</a></li>
+                        <li><a href="category.html?cat=accessories">Accessories</a></li>
+                        <li><a href="category.html?cat=sale">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6>Help</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h6>Newsletter</h6>
+                    <p class="text-muted small">Subscribe for exclusive offers and new arrivals.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); App.showToast('Thank you for subscribing!');">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address">
+                            <button class="btn btn-accent" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <p class="small text-muted mb-0">&copy; 2026 Maison &Eacute;l&eacute;gance. All rights reserved. Demo store.</p>
+                <div class="payment-icons">
+                    <i class="bi bi-credit-card me-2"></i>
+                    <i class="bi bi-paypal me-2"></i>
+                    <i class="bi bi-wallet2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast-container" id="toastContainer"></div>
+    <button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
