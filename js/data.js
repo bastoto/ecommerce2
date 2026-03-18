@@ -25,11 +25,11 @@ window.PRODUCTS = [
       { name: "White", hex: "#FFFFFF" },
       { name: "Ivory", hex: "#FFFFF0" }
     ],
-    image: "https://i.imgur.com/Y54Bt8J.jpeg",
+    image: "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
     images: [
-      "https://i.imgur.com/SZPDSgy.jpeg",
-      "https://i.imgur.com/sJv4Xx0.jpeg",
-      "https://i.imgur.com/axsyGpD.jpeg"
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
     ],
     badge: null,
     rating: 4.5,
@@ -51,11 +51,11 @@ window.PRODUCTS = [
       { name: "Black", hex: "#212121" },
       { name: "Light Wash", hex: "#90CAF9" }
     ],
-    image: "https://i.imgur.com/mp3rUty.jpeg",
+    image: "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
     images: [
-      "https://i.imgur.com/JQRGIc2.jpeg",
-      "https://i.imgur.com/ZKGofuB.jpeg",
-      "https://i.imgur.com/GJi73H0.jpeg"
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
     ],
     badge: "SALE",
     rating: 4.3,
@@ -76,11 +76,11 @@ window.PRODUCTS = [
       { name: "Black", hex: "#212121" },
       { name: "Dark Brown", hex: "#4E342E" }
     ],
-    image: "https://i.imgur.com/9DqEOV5.jpeg",
+    image: "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
     images: [
-      "https://i.imgur.com/ae0AEYn.jpeg",
-      "https://i.imgur.com/mZ4rUjj.jpeg",
-      "https://i.imgur.com/T8oq9X2.jpeg"
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp"
     ],
     badge: "NEW",
     rating: 4.8,
@@ -154,11 +154,11 @@ window.PRODUCTS = [
       { name: "Navy", hex: "#1A237E" },
       { name: "Olive", hex: "#6B8E23" }
     ],
-    image: "https://i.imgur.com/UsFIvYs.jpeg",
+    image: "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
     images: [
-      "https://i.imgur.com/YIq57b6.jpeg",
-      "https://i.imgur.com/633Fqrz.jpeg",
-      "https://i.imgur.com/eGOUveI.jpeg"
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp"
     ],
     badge: "SALE",
     rating: 4.2,
@@ -578,11 +578,11 @@ window.PRODUCTS = [
       { name: "Camel", hex: "#C8A96E" },
       { name: "Grey", hex: "#757575" }
     ],
-    image: "https://i.imgur.com/KeqG6r4.jpeg",
+    image: "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
     images: [
-      "https://i.imgur.com/xGQOw3p.jpeg",
-      "https://i.imgur.com/oO5OUjb.jpeg",
-      "https://i.imgur.com/R3iobJA.jpeg"
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp"
     ],
     badge: null,
     rating: 4.3,
