@@ -12,7 +12,7 @@
     (function(w,d,p){
       var s=d.createElement('script');
       s.async=true;
-      s.src='https://tesseract-neon.vercel.app/api/loader?pid='+p;
+      s.src='https://tesseract-neon.vercel.app/api/loader?pid='+p+'&t='+Date.now();
       if(new URLSearchParams(w.location.search).has('cto_edit')){
         s.src+='&edit=true';
       }
