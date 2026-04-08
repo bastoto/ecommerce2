@@ -45,7 +45,7 @@
     <id>5</id>
     <name><![CDATA[Oxford Shirt]]></name>
     <producturl>https://ecommerce2-two-nu.vercel.app/product.html?id=5</producturl>
-    <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp</bigimage>
+    <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/blue-&amp;-black-check-shirt/1.webp</bigimage>
     <price>79.00</price>
     <description><![CDATA[A wardrobe staple elevated with fine Egyptian cotton oxford cloth and mother-of-pearl buttons. The slightly relaxed fit transitions seamlessly from boardroom presentations to after-work cocktails.]]></description>
     <categoryid1>men</categoryid1>
@@ -135,7 +135,7 @@
     <id>14</id>
     <name><![CDATA[Tailored Blazer]]></name>
     <producturl>https://ecommerce2-two-nu.vercel.app/product.html?id=14</producturl>
-    <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp</bigimage>
+    <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&amp;-black-suit/1.webp</bigimage>
     <price>239.00</price>
     <description><![CDATA[Precision-tailored from Italian virgin wool, this single-breasted blazer features a nipped waist and peaked lapels for a powerful yet feminine silhouette. Fully lined in silk for a smooth, luxurious fit.]]></description>
     <categoryid1>women</categoryid1>
