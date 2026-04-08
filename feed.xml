@@ -8,7 +8,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp</bigimage>
     <price>49.00</price>
     <description><![CDATA[Crafted from premium Supima cotton, this essential white tee offers an impeccable fit and a luxuriously soft hand feel. The reinforced collar and double-stitched hems ensure lasting shape and durability wash after wash.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -18,7 +18,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp</bigimage>
     <price>89.00</price>
     <description><![CDATA[These slim-fit jeans are woven from Japanese selvedge denim with just the right amount of stretch for all-day comfort. The clean indigo wash and tailored silhouette make them equally suited for casual Fridays and weekend outings.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -28,7 +28,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp</bigimage>
     <price>399.00</price>
     <description><![CDATA[Hand-finished from buttery-soft Italian lambskin, this moto-inspired jacket exudes effortless sophistication. Antique brass hardware and a satin-lined interior complete the luxurious construction.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -38,7 +38,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp</bigimage>
     <price>349.00</price>
     <description><![CDATA[This double-breasted overcoat is tailored from a heavyweight Italian wool-cashmere blend for exceptional warmth without bulk. Its structured shoulders and knee-length cut create a commanding silhouette perfect for the colder months.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -48,7 +48,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp</bigimage>
     <price>79.00</price>
     <description><![CDATA[A wardrobe staple elevated with fine Egyptian cotton oxford cloth and mother-of-pearl buttons. The slightly relaxed fit transitions seamlessly from boardroom presentations to after-work cocktails.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -58,7 +58,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp</bigimage>
     <price>69.00</price>
     <description><![CDATA[These tailored chinos feature a garment-dyed finish that gives each pair a unique, lived-in character. The mid-rise waist and tapered leg offer a modern slim profile without restricting movement.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -68,7 +68,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp</bigimage>
     <price>189.00</price>
     <description><![CDATA[Knitted from two-ply Mongolian cashmere, this crew-neck sweater provides cloud-like softness and exceptional insulation. The ribbed cuffs and hem retain their shape beautifully over time.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -78,7 +78,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp</bigimage>
     <price>229.00</price>
     <description><![CDATA[This unstructured blazer is crafted from premium Belgian linen, offering a relaxed yet refined aesthetic ideal for warm-weather occasions. Half-lined for breathability, it pairs effortlessly with both dress trousers and denim.]]></description>
-    <categoryid1>1</categoryid1>
+    <categoryid1>men</categoryid1>
   </product>
 
   <product>
@@ -88,7 +88,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp</bigimage>
     <price>259.00</price>
     <description><![CDATA[This fluid wrap dress is cut from lustrous mulberry silk that drapes beautifully over every silhouette. The adjustable tie waist and midi length create a universally flattering shape for day-to-evening versatility.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -98,7 +98,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp</bigimage>
     <price>119.00</price>
     <description><![CDATA[These high-waisted trousers feature a wide-leg silhouette that elongates the figure with effortless grace. Crafted from a structured wool blend, they hold their crease perfectly throughout the day.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -108,7 +108,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp</bigimage>
     <price>199.00</price>
     <description><![CDATA[Wrapped in the finest Mongolian cashmere, this relaxed-fit cardigan is the epitome of understated luxury. Oversized horn buttons and deep patch pockets add a touch of character to this cozy essential.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -118,7 +118,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/1.webp</bigimage>
     <price>99.00</price>
     <description><![CDATA[This accordion-pleated midi skirt moves with graceful fluidity, creating a mesmerizing silhouette with every step. The elasticized waistband ensures a comfortable fit while the satin-finish fabric catches the light beautifully.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -128,7 +128,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp</bigimage>
     <price>89.00</price>
     <description><![CDATA[This elevated satin blouse features a subtle sheen and a relaxed, feminine drape. The concealed button placket and French seam finishing reflect the meticulous attention to detail that defines our house.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -138,7 +138,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp</bigimage>
     <price>239.00</price>
     <description><![CDATA[Precision-tailored from Italian virgin wool, this single-breasted blazer features a nipped waist and peaked lapels for a powerful yet feminine silhouette. Fully lined in silk for a smooth, luxurious fit.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -148,7 +148,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp</bigimage>
     <price>79.00</price>
     <description><![CDATA[This fine-gauge merino turtleneck is impossibly soft against the skin and slim enough to layer under blazers and coats. The ribbed neck, cuffs, and hem add subtle textural interest to the clean design.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -158,7 +158,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp</bigimage>
     <price>329.00</price>
     <description><![CDATA[These sleek leather pants are crafted from supple nappa lambskin with a slim, straight-leg fit that flatters every figure. Fully lined in cotton for comfort, they bring an edge of bold sophistication to any ensemble.]]></description>
-    <categoryid1>2</categoryid1>
+    <categoryid1>women</categoryid1>
   </product>
 
   <product>
@@ -168,7 +168,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp</bigimage>
     <price>289.00</price>
     <description><![CDATA[This structured tote is handcrafted from full-grain vegetable-tanned leather that develops a rich patina over time. The spacious interior features a suede lining, zip pocket, and dual slip pockets for effortless organization.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -178,7 +178,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp</bigimage>
     <price>199.00</price>
     <description><![CDATA[A timepiece of quiet refinement, this Swiss-movement watch features a sunray-brushed dial housed in a slim 38mm stainless steel case. The interchangeable Italian leather strap ensures it complements any wardrobe.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -188,7 +188,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/tops/tartan-dress/1.webp</bigimage>
     <price>79.00</price>
     <description><![CDATA[Printed on sumptuous twill silk using traditional screen-printing techniques, this versatile scarf can be worn around the neck, as a headband, or tied to a handbag. Each piece is finished with hand-rolled edges.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -198,7 +198,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp</bigimage>
     <price>159.00</price>
     <description><![CDATA[These classic aviator sunglasses feature polarized lenses with full UV400 protection set in lightweight titanium frames. The teardrop lens shape flatters a wide range of face shapes with timeless appeal.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -208,7 +208,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp</bigimage>
     <price>69.00</price>
     <description><![CDATA[This reversible belt is handcrafted from full-grain Italian leather, offering black on one side and brown on the other. The brushed palladium buckle rotates with a satisfying click for effortless versatility.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -218,7 +218,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp</bigimage>
     <price>89.00</price>
     <description><![CDATA[Shaped from fine Australian merino wool felt, this fedora features a classic pinch crown and a grosgrain ribbon band. Lightweight and packable, it's the perfect finishing touch for both casual and dressed-up looks.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -228,7 +228,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp</bigimage>
     <price>129.00</price>
     <description><![CDATA[These sculptural hoop earrings are cast in 18k gold vermeil over sterling silver, featuring a contemporary oval shape with a high-polish finish. Lightweight and hypoallergenic, they elevate any look with quiet luxury.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
   <product>
@@ -238,7 +238,7 @@
     <bigimage>https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp</bigimage>
     <price>29.00</price>
     <description><![CDATA[This slim bifold wallet is crafted from hand-burnished calfskin leather with a contrasting edge paint detail. Eight card slots, two bill compartments, and a hidden coin pocket offer ample storage in a sleek profile.]]></description>
-    <categoryid1>3</categoryid1>
+    <categoryid1>accessories</categoryid1>
   </product>
 
 </products>
